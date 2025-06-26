@@ -1,3 +1,6 @@
+"""
+parts taken from https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/managed-identity
+"""
 import os
 from openai import AzureOpenAI
 from azure.core.credentials import AzureKeyCredential

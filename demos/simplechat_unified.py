@@ -1,3 +1,6 @@
+"""
+from https://learn.microsoft.com/en-us/azure/ai-foundry/quickstarts/get-started-code?tabs=python&pivots=fdp-project
+"""
 from dotenv import load_dotenv
 import os
 

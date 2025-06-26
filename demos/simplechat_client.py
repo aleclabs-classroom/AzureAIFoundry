@@ -1,3 +1,6 @@
+"""
+parts taken from ai.azure.com model > details > get started
+"""
 from dotenv import load_dotenv
 
 import os

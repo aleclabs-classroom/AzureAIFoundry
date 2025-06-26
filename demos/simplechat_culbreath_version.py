@@ -1,3 +1,7 @@
+"""
+from GenAI Academy Session #6 Example 1
+"""
+
 # import os
 from azure.identity import DefaultAzureCredential
 from openai import AzureOpenAI
