@@ -1,3 +1,6 @@
+"""
+taken from https://github.com/Azure/azure-sdk-for-python/blob/azure-ai-projects_1.0.0b11/sdk/ai/azure-ai-agents/samples/agents_async/sample_agents_basics_async.py
+"""
 from dotenv import load_dotenv
 
 import asyncio

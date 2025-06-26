@@ -24,8 +24,8 @@ client = AzureOpenAI(
 response = client.chat.completions.create(
     model=model_deployment_name,
     messages=[
-        {"role": "system", "content": "You are a helpful writing assistant"},
-        {"role": "user", "content": "Write me a poem about flowers"},
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "Explain Azure AI services briefly"},
     ]
 )
 
