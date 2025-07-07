@@ -17,7 +17,7 @@ https://microsoftlearning.github.io/mslearn-ai-studio/ (tutorials)
     * Learn what models perform which tasks (https://learn.microsoft.com/en-us/azure/ai-services/openai/overview)
     * Tested documentation with Unified Projects (https://learn.microsoft.com/en-us/python/api/overview/azure/ai-projects-readme?view=azure-python-preview)
     * Follow the sdk instructions on the details tab of the model
-    * Click API documentation on Foundry page for instructions  (https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/sdk-overview?pivots=programming-language-python)
+    * Click API documentation on Foundry page for instructions (https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/sdk-overview?pivots=programming-language-python)
 5. Open VS Code (local or https://vscode.dev)
 6. Create a python env (prefer conda)
     1. Install anaconda with brew install --cask anaconda
@@ -29,4 +29,5 @@ https://microsoftlearning.github.io/mslearn-ai-studio/ (tutorials)
 9. Establish a git repo
     1. https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
 
-use `pip freeze | xargs pip uninstall -y` to clean environment
+use `pip freeze | xargs pip uninstall -y` to clean environment--seems to fail with network dependencies
+use `pip freeze > requirements.txt` and/or `conda env export > environments.yml` to backup the environment
