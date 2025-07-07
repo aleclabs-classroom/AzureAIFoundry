@@ -28,3 +28,5 @@ https://microsoftlearning.github.io/mslearn-ai-studio/ (tutorials)
 8. Keep secrets (e.g. API key in a .env file, add to .gitignore) (https://stackoverflow.com/questions/40216311/reading-in-environment-variables-from-an-environment-file)
 9. Establish a git repo
     1. https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+
+use `pip freeze | xargs pip uninstall -y` to clean environment
