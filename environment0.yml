@@ -1,0 +1,33 @@
+name: .conda
+channels:
+  - conda-forge
+  - defaults
+dependencies: # contains original pip list by project
+  - python=3.9
+  - jupyterlab
+  - ipykernel
+  - python-dotenv
+  # https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/develop/sdk-overview?pivots=programming-language-python
+  # - azure-ai-projects # requires pip or local install
+  - azure-identity
+  # https://learn.microsoft.com/en-us/azure/ai-foundry/openai/tutorials/embeddings?tabs=python-new%2Ccommand-line&pivots=programming-language-python
+  - openai 
+  - num2words 
+  - matplotlib 
+  - plotly 
+  - scipy 
+  - scikit-learn 
+  - pandas 
+  - tiktoken
+  # https://python.langchain.com/docs/integrations/vectorstores/azure_cosmos_db/
+  - pymongo 
+  - langchain-openai 
+  - langchain-community
+  # from genai-academy embeddings tutorial
+  - pycopg # channel conda-forge
+  # https://learn.microsoft.com/en-us/azure/cosmos-db/mongodb/vcore/ai-advertisement-generation
+  - azure-core
+  - azure-cosmos
+  - tenacity
+  - gradio
+prefix: /Users/alecjvaughn/Developer/genaiAcademy/AzureAIFoundry/.conda
